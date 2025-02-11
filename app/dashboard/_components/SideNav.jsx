@@ -2,7 +2,7 @@
 
 import React from 'react'
 import Image from 'next/image'
-import { GraduationCap, Hand, LayoutDashboard } from 'lucide-react'
+import { GraduationCap, Hand, LayoutDashboard, Settings } from 'lucide-react'
 import { useKindeBrowserClient } from '@kinde-oss/kinde-auth-nextjs'
 
 
@@ -31,7 +31,7 @@ function sideNav() {
         },        {
             id: 4,
             name: 'Settings',
-            icon: LayoutDashboard,
+            icon: Settings,
             path: '/dashboard/settings'
         },
     ]
