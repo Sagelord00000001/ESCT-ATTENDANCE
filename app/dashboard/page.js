@@ -49,6 +49,14 @@ function Dashboard() {
           <GradeSelection selectedGrade={setSelectedGrade} />
         </div>
       </div>
+            {/* Descriptive Text */}
+            <div className='mt-4 mb-6'>
+        <p className='text-gray-600 dark:text-gray-300'>
+          Welcome to the Dashboard! Here you can monitor attendance statistics and trends. 
+          Select a month and grade to view detailed attendance data. The charts and status 
+          indicators will help you analyze the attendance patterns effectively.
+        </p>
+      </div>
       <Status attendanceList={attendanceList}/>
       <div className='grid grid-cols-1 md:grid-cols-2 sm:grid-cols-3'>
         <div className='md:col-span-2'>
