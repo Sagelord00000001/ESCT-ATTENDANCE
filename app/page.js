@@ -14,7 +14,6 @@ export default function Home() {
     <div>
         <LoginLink>Sign in</LoginLink>
         <RegisterLink>Sign up</RegisterLink>
-        
     </div>
     
   );
